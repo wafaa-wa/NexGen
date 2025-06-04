@@ -1,0 +1,99 @@
+.WorksRightCard {
+    max-width: 579.33px;
+    gap: 20px;
+}
+
+.WorksRightCardTop {
+    width: 100%;
+    border-radius: 14px;
+    padding: 40px;
+    background-color: var(--priamry-dark);
+    gap: 20px;
+
+}
+
+.White-P {
+    font-weight: 500;
+    color: var(--white);
+}
+
+.WorksRightCardTop div {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.TextItem {
+    border-radius: 45px;
+    padding: 10px 16px;
+    background-color: var(--shadow-black);
+    font-size: 16px;
+    color: var(--gray-light);
+
+}
+
+.WorksRightCard2 {
+    width: 100%;
+    gap: 40px;
+    border-radius: 14px;
+    padding: 20px 40px;
+    align-items: center;
+
+}
+
+.ProfileImages {
+    gap: 10px;
+}
+
+.ProfileImages img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+@media (max-width:1708px) {
+    .WorksRightCard {
+        max-width: 440px;
+        gap: 10px;
+    }
+
+    .WorksRightCardTop {
+        border-radius: 10px;
+        padding: 30px;
+        gap: 16px;
+
+    }
+
+
+
+    .WorksRightCardTop div {
+        gap: 8px;
+    }
+
+    .TextItem {
+        padding: 8px 14px;
+        font-size: 14px;
+
+    }
+
+    .WorksRightCard2 {
+        gap: 30px;
+        border-radius: 10px;
+        padding: 16px 20px;
+
+    }
+
+    .ProfileImages {
+        gap: 8px;
+    }
+
+    .ProfileImages img {
+        width: 40px;
+        height: 40px;
+
+    }
+
+
+
+}

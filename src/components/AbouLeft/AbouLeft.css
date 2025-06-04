@@ -1,0 +1,36 @@
+.AbouLeft {
+    width: 66.3186%;
+    border-radius: 20px;
+    padding: 126px 80px;
+    background-color: var(--priamry-dark);
+}
+
+.AbouLeft .HeroLeftSideTop {
+    width: 100%;
+}
+
+@media (max-width:1440px) {
+    .AbouLeft {
+        width: 66.5441%;
+        border-radius: 16px;
+        padding: 92px 60px;
+
+    }
+
+    .AbouLeft .HeroLeftSideTop {
+        width: 100%;
+    }
+}
+
+@media (max-width:1200px) {
+    .AbouLeft {
+        width: 100%;
+        border-radius: 12px;
+        padding: 30px 24px;
+
+    }
+
+    .AbouLeft .HeroLeftSideTop {
+        width: 100%;
+    }
+}

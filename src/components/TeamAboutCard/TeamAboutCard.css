@@ -1,0 +1,104 @@
+.TeamAboutCard {
+    width: 24.1573%;
+    border-radius: 14px;
+    background-color: var(--priamry-dark);
+    justify-content: flex-start;
+    position: relative;
+
+}
+
+.TeamAboutCard-Top {
+    text-align: center;
+    gap: 4px;
+    padding: 50px 50px 150px;
+    border-bottom-width: 1px;
+    background-color: var(--dark-gray);
+
+}
+
+.TeamAboutCard-Top h4 {
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.TeamAboutCard-Bottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0px 30px 40px;
+    min-height: 223px;
+
+}
+
+.TeamAboutCard-Bottom-Container {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.TeamAboutCard .ProfileImg {
+    position: absolute;
+    width: 86.0465%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 157px;
+    z-index: 11;
+}
+
+@media (max-width:1440px) {
+    .TeamAboutCard {
+        width: 327.5px;
+        border-radius: 10px;
+
+    }
+
+    .TeamAboutCard-Top {
+        padding: 40px 40px 120px;
+
+    }
+
+    .TeamAboutCard-Bottom {
+        padding: 0px 24px 30px;
+        min-height: 173px;
+
+    }
+
+
+    .TeamAboutCard-Bottom-Container {
+        gap: 8px;
+    }
+
+    .TeamAboutCard .ProfileImg {
+        width: 279.5px;
+        top: 128px;
+    }
+
+}
+
+@media (max-width:992px) {
+    .TeamAboutCard {
+        width: 338px;
+
+    }
+
+    .TeamAboutCard-Top {
+        padding: 30px 30px 100px;
+
+    }
+
+    .TeamAboutCard .ProfileImg {
+        width: 290px;
+        top: 93px;
+    }
+
+}
+
+@media (max-width:390px) {
+    .TeamAboutCard {
+        width: 100%;
+    }
+
+    .TeamAboutCard .ProfileImg {
+        width: 85.7988%;
+    }
+}

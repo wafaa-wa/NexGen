@@ -1,0 +1,42 @@
+export const TestimonialsCardsData = [
+    {
+        id: 1,
+        ReaCardTitle: "NexGen turned our business around!",
+        ReaCardText: "Their digital marketing strategies helped us reach new customers and increase our revenue by 30% within just a few months. Highly recommended!",
+        T: true,
+        ProfileImg: "/images/Home/Testimonials/Image (1).png",
+        Name: "Sarah Thompson",
+        Work: "CEO of BlueBloom",
+        RightArrow: "/images/Home/Testimonials/Arrow-Right.svg",
+    },
+    {
+        id: 2,
+        ReaCardTitle: "NexGen turned our business around!",
+        ReaCardText: "Their digital marketing strategies helped us reach new customers and increase our revenue by 30% within just a few months. Highly recommended!",
+        T: true,
+        ProfileImg: "/images/Home/Testimonials/Image (2).png",
+        Name: "Wade Warren",
+        Work: "Art Director",
+        RightArrow: "/images/Home/Testimonials/Arrow-Right.svg",
+    },
+    {
+        id: 3,
+        ReaCardTitle: "Working with NexGen was a pleasure.",
+        ReaCardText: "Their web design team created a stunning website that perfectly captured our brand's essence. The feedback from our customers has been overwhelmingly positive.",
+        T: true,
+        ProfileImg: "/images/Home/Testimonials/Image (3).png",
+        Name: "Lisa Williams",
+        Work: "CEO Of HealthTech",
+        RightArrow: "/images/Home/Testimonials/Arrow-Right.svg",
+    },
+    {
+        id: 4,
+        ReaCardTitle: "NexGen's web design team brought our vision to life.",
+        ReaCardText: "Their responsive design ensures our website looks stunning on all devices, contributing to increased user engagement.",
+        T: true,
+        ProfileImg: "/images/Home/Testimonials/Image (4).png",
+        Name: "Jennifer Lee",
+        Work: "COO of Foodie Haven",
+        RightArrow: "/images/Home/Testimonials/Arrow-Right.svg",
+    }
+]

@@ -1,0 +1,78 @@
+.ServicseRightCard {
+    width: 49.4382%;
+    gap: 24px;
+    border-radius: 14px;
+    padding: 40px;
+    background-color: var(--priamry-dark);
+
+}
+
+.CardServicesTop {
+    grid-area: 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CardServicesTop h4 {
+    font-size: 24px;
+}
+
+.CardServicesTop .ArrowIcon {
+    padding: 20px;
+    background-color: var(--priamry-dark);
+
+
+}
+
+.CardServicesTop .ArrowText {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.CardServicesBotom {
+    gap: 20px;
+}
+
+.CardServicesBotom img {
+    width: 48.75%;
+}
+
+
+@media (max-width:1440px) {
+    .ServicseRightCard {
+        width: 49.6268%;
+        gap: 24px;
+        border-radius: 12px;
+        padding: 30px;
+
+    }
+
+    .CardServicesTop {
+        grid-area: 20px;
+
+    }
+
+
+    .CardServicesTop.ArrowIcon {
+        width: 56px;
+        height: 56px;
+
+
+    }
+
+
+    .CardServicesBotom {
+        gap: 10px;
+    }
+
+    .CardServicesBotom img {
+        width: 49.1735%;
+    }
+}
+
+@media (max-width:992px) {
+    .ServicseRightCard {
+        display: none !important;
+    }
+
+}

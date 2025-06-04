@@ -1,0 +1,98 @@
+.ContactSection {
+    align-items: flex-start;
+}
+
+.ContactInfo {
+    width: 41.0439%;
+    gap: 80px;
+    border-radius: 14px;
+    padding: 50px;
+    background-color: var(--priamry-dark);
+
+}
+
+.ContactInfo .FilterButtonsProects button {
+    width: 32.0973%;
+    white-space: nowrap;
+
+}
+
+.AllContactInfoContainer {
+    gap: 30px;
+}
+
+@media (max-width:1440px) {
+    .ContactInfo {
+        width: 40.0441%;
+        gap: 60px;
+        border-radius: 12px;
+        padding: 40px;
+
+
+    }
+
+    .ContactInfo .FilterButtonsProects button {
+        width: 32.1978%;
+
+    }
+
+    .AllContactInfoContainer {
+        gap: 20px;
+    }
+
+
+}
+
+@media (max-width:1430px) {
+    .ContactInfo {
+        width: 100%;
+    }
+
+}
+
+@media (max-width:992px) {
+    .ContactInfo {
+
+        gap: 50px;
+        border-radius: 10px;
+        padding: 30px;
+
+
+    }
+
+    .ContactFulterSmallMedia {
+        display: flex !important;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: thin;
+        scroll-behavior: smooth;
+
+    }
+
+    .ContactFulterSmallMedia::-webkit-scrollbar {
+        height: 6px;
+    }
+
+    .ContactFulterSmallMedia::-webkit-scrollbar-track {
+        background: var(--medium-gray);
+        border-radius: 10px;
+    }
+
+    .ContactFulterSmallMedia::-webkit-scrollbar-thumb {
+        background: var(--priamry-dark);
+        border-radius: 10px;
+        transition: 0.3s ease-in-out;
+    }
+
+
+    .ContactInfo .FilterButtonsProects button {
+        width: 154px;
+
+    }
+
+    .AllContactInfoContainer {
+        gap: 16px;
+    }
+
+}

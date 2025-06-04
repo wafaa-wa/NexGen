@@ -1,0 +1,49 @@
+.AwardsCard {
+    width: 24.1573%;
+    gap: 50px;
+    border-radius: 14px;
+    padding: 40px;
+    background-color: var(--priamry-dark);
+
+}
+
+.AwardsCard-Top {
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.AwardsCard-Bottom {
+    width: 100%;
+    justify-content: space-between;
+    gap: 12px;
+    flex-grow: 1;
+}
+
+@media (max-width:1440px) {
+    .AwardsCard {
+        width: 327.5px;
+        gap: 40px;
+        border-radius: 12px;
+        padding: 30px;
+
+    }
+
+    .AwardsCard-Bottom {
+        gap: 8px;
+    }
+}
+
+@media (max-width:992px) {
+    .AwardsCard {
+        width: 338px;
+        gap: 30px;
+        padding: 24px;
+
+    }
+
+    .AwardsCard-Bottom {
+        gap: 6px;
+    }
+
+}

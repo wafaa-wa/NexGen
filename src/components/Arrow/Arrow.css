@@ -1,0 +1,82 @@
+.Arrow,
+.Arrow1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ArrowIcon {
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Arrow .ArrowIcon {
+    width: 68px;
+    height: 68px;
+    padding: 14px;
+    border: 1px solid var(--dark-gray);
+    background-color: var(--pure-black);
+
+}
+
+.Arrow1 .ArrowIcon {
+    width: 52px;
+    height: 52px;
+    padding: 20px;
+    border: 1px solid var(--medium-gray);
+    background-color: var(--shadow-black);
+
+}
+
+.Arrow .ArrowIcon img {
+    width: 28px;
+}
+
+.Arrow1 .ArrowIcon img {
+    width: 24x;
+}
+
+.ArrowText {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: var(--nutral-gray);
+
+}
+
+@media (max-width:1440px) {
+    .Arrow {
+        gap: 8px;
+    }
+
+    .Arrow .ArrowIcon {
+        width: 52px;
+        height: 52px;
+        padding: 16px;
+
+    }
+
+    .Arrow1 .ArrowIcon {
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+
+
+    }
+
+    .Arrow .ArrowIcon img {
+        width: 20px;
+    }
+
+    .ArrowText {
+        font-size: 16px;
+
+
+    }
+
+}

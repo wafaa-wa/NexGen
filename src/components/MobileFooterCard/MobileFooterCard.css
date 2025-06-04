@@ -1,0 +1,11 @@
+.MobileFooterCard {
+    display: none !important;
+}
+
+@media (max-width:1200px) {
+    .MobileFooterCard {
+        display: block !important;
+        width: 81.75px;
+        height: 56px;
+    }
+}

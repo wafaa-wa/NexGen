@@ -1,0 +1,143 @@
+.FAQ-Container {
+
+    align-items: flex-start;
+}
+
+.Accordion-Side {
+    width: 57.9120%;
+    gap: 20px;
+}
+
+.FAQ-Form-Side {
+    width: 40.9890%;
+    gap: 50px;
+    border-radius: 14px;
+    box-shadow: 10px 10px 50px 0px var(--ocean-blue);
+    background-color: var(--priamry-dark);
+    padding: 60px;
+
+}
+
+.FAQ-Form-Side h4 {
+    font-size: 24px;
+}
+
+.FAQ-Form-Side form {
+    gap: 20px;
+}
+
+.InputForm {
+    gap: 10px;
+}
+
+.InputForm label {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--dusty-rose);
+}
+
+.InputForm input,
+.InputForm textarea {
+    width: 100%;
+    border-radius: 10px;
+    padding: 24px;
+    background-color: var(--pure-black);
+
+}
+
+.InputForm ::placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--nutral-gray);
+}
+
+@media (max-width:1440px) {
+    .Accordion-Side {
+        width: 58.3211%;
+        gap: 10px;
+    }
+
+    .FAQ-Form-Side {
+        width: 40.9489%;
+        gap: 30px;
+        box-shadow: 10px 10px 50px 0px var(--ocean-blue);
+        padding: 50px;
+
+    }
+
+
+    .FAQ-Form-Side form {
+        gap: 16px;
+    }
+
+    .InputForm {
+        gap: 8px;
+    }
+
+    .InputForm label,
+    .InputForm ::placeholder {
+        font-size: 16px;
+
+    }
+
+    .InputForm input,
+    .InputForm textarea {
+        border-radius: 8px;
+        padding: 20px;
+
+    }
+
+
+
+}
+
+@media (max-width:992px) {
+    .FAQ .Style-Section2 {
+        border: none;
+        border-radius: 0px;
+    }
+
+    .FAQ-Container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Accordion-Side {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .FAQ-Form-Side {
+        width: 358px;
+        gap: 20px;
+        border-radius: 12px;
+        padding: 30px;
+
+    }
+
+
+    .FAQ-Form-Side form {
+        gap: 14px;
+    }
+
+
+    .InputForm input,
+    .InputForm textarea {
+        padding: 16px;
+
+    }
+
+
+
+}
+
+@media (max-width: 410px) {
+    .FAQ-Form-Side {
+        width: 100%;
+    }
+
+}

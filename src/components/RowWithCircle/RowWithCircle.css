@@ -1,0 +1,43 @@
+.RowWithCircle {
+    width: fit-content;
+    align-items: center;
+    gap: 8px;
+    border-radius: 45px;
+    padding: 10px 16px;
+    background-color: var(--shadow-black);
+    flex-shrink: 0;
+
+}
+
+.RowWithCircle .circle {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: var(--sunset-clay);
+
+}
+
+.p-Bold {
+    font-weight: 500;
+    color: var(--gray-light);
+}
+
+@media (max-width:1708px) {
+    .RowWithCircle {
+        gap: 6px;
+        padding: 8px 14px;
+
+    }
+}
+
+@media (max-width:992px) {
+    .RowWithCircle {
+        gap: 4px;
+        padding: 6px 10px;
+
+    }
+
+    .p-Bold {
+        font-size: 12px !important;
+    }
+}

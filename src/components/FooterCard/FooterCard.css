@@ -1,0 +1,84 @@
+.FooterCard,
+.KeyFeaturesCard {
+
+    gap: 80px;
+    border-radius: 14px;
+    padding: 40px;
+    background-color: var(--priamry-dark);
+
+}
+
+.FooterCard {
+    max-width: 364px;
+
+}
+
+.KeyFeaturesCard {
+    width: 24.1573%;
+
+}
+
+.FooterCard-Top {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.FooterCard-Botttom {
+    gap: 12px;
+}
+.KeyFeaturesCard .FooterCard-Botttom {
+    flex-grow: 1;
+}
+
+@media (max-width:1440px) {
+
+    .FooterCard,
+    .KeyFeaturesCard {
+        border-radius: 10px;
+
+    }
+
+    .FooterCard {
+        max-width: 272px;
+        padding: 30px;
+        gap: 60px;
+
+    }
+
+    .KeyFeaturesCard {
+        width: 327.5px;
+        padding: 24px;
+        gap: 40px;
+
+    }
+
+    .FooterCard-Botttom {
+        gap: 10px;
+    }
+
+}
+
+@media (max-width:1200px) {
+    .FooterCard {
+        display: none !important;
+
+    }
+
+
+}
+
+@media (max-width:992px) {
+    .KeyFeaturesCard {
+        width: 338px;
+        border-radius: 8px;
+        padding: 20px;
+        gap: 30px;
+
+    }
+
+    .FooterCard-Botttom {
+        gap: 6px;
+    }
+
+
+}

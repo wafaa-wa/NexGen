@@ -1,0 +1,55 @@
+.HeroOpenBlogRow {
+    width: 100%;
+    border-radius: 14px;
+    padding: 30px;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--shadow-black);
+    white-space: nowrap;
+}
+
+.HeroOpenBlogRow p {
+    font-family: "Roboto Mono";
+    font-weight: 500;
+}
+
+.HeroOpenBlogRow h4 {
+    font-family: "Roboto Mono";
+    line-height: 150%;
+    color: var(--white);
+
+}
+
+@media (max-width:1440px) {
+    .HeroOpenBlogRow {
+        border-radius: 12px;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .HeroOpenBlogRow p {
+        font-size: 14px;
+    }
+
+    .HeroOpenBlogRow h4 {
+        font-size: 18px;
+
+    }
+
+}
+
+@media (max-width:1200px) {
+    .HeroOpenBlogRow h4 {
+        font-size: 16px;
+
+    }
+
+}
+
+@media (max-width:380px) {
+    .HeroOpenBlogRow {
+        flex-direction: column;
+    }
+
+}

@@ -1,0 +1,122 @@
+.AchievementsCard,
+.ApplyCard {
+    justify-content: flex-start;
+    border-radius: 14px;
+    background-color: var(--priamry-dark);
+}
+
+.AchievementsCard {
+    width: 24.1758%;
+
+}
+
+.ApplyCard {
+    width: 24.1573%;
+
+}
+
+.AchievementsCard-Date {
+    padding: 16px 30px;
+    border-top-width: 2px;
+
+}
+
+.AchievementsCard-Date p {
+    font-family: "Roboto Mono";
+    font-size: 20px;
+    color: var(--olive-gary);
+
+
+}
+
+.AchievementsCard-Title {
+    padding: 40px 30px;
+    border-top: 2px solid var(--dark-gray);
+    background-color: var(--shadow-black);
+
+
+
+}
+
+.AchievementsCard .AchievementsCard-Title {
+    flex-grow: 1;
+}
+
+.AchievementsCard-Title h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.AchievementsCard-Description {
+    padding: 30px;
+    border-top: 2px solid var(--dark-gray);
+    flex-grow: 1;
+    gap: 30px;
+
+
+
+}
+
+@media (max-width:1440px) {
+    .AchievementsCard {
+        width: 327.5px;
+        border-radius: 10px;
+    }
+
+    .ApplyCard {
+        width: 327.5px;
+        border-radius: 12px;
+    }
+
+    .AchievementsCard .AchievementsCard-Date {
+        padding: 12px 24px;
+
+    }
+
+    .ApplyCard .AchievementsCard-Date {
+        padding: 14px 24px;
+    }
+
+
+    .AchievementsCard-Title {
+        padding: 30px 24px;
+
+    }
+
+
+    .AchievementsCard-Description {
+        padding: 24px;
+        gap: 24px;
+
+    }
+
+}
+
+@media (max-width:992px) {
+
+    .AchievementsCard,
+    .ApplyCard {
+        width: 338px;
+    }
+
+    .AchievementsCard .AchievementsCard-Date,
+    .ApplyCard .AchievementsCard-Date {
+        padding: 10px 20px;
+
+    }
+
+
+    .AchievementsCard-Title {
+        padding: 24px 20px;
+
+    }
+
+    .AchievementsCard-Description {
+        padding: 20px;
+        gap: 20px;
+
+    }
+
+}

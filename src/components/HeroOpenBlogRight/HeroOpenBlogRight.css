@@ -1,0 +1,23 @@
+.HeroOpenBlogRight {
+    width: 32.5834%;
+    border-radius: 14px;
+    padding: 30px;
+    gap: 20px;
+    background-color: var(--priamry-dark);
+}
+
+@media (max-width:1440px) {
+    .HeroOpenBlogRight {
+        width: 32.5%;
+        padding: 10px;
+        gap: 10px;
+    }
+
+}
+
+@media (max-width:1200px) {
+    .HeroOpenBlogRight {
+        width: 100%;
+    }
+
+}

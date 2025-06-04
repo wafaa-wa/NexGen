@@ -1,0 +1,96 @@
+.Footer {
+    gap: 20px;
+    padding-bottom: 50px;
+}
+.Footer-Bottom {
+    gap: 20px;
+}
+
+.AllCardFooter {
+    gap: 20px;
+}
+
+.FooterBottom-RightSide {
+    width: 57.8253%;
+    gap: 20px;
+}
+
+.AllFooterLinks {
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 60px;
+    border-radius: 20px;
+    padding: 60px;
+    background-color: var(--priamry-dark);
+
+
+}
+
+
+
+@media (max-width:1440px) {
+    .Footer {
+        gap: 10px;
+        padding-bottom: 40px;
+    }
+    .Footer-Bottom {
+        width: auto;
+        gap: 10px;
+    }
+
+    .AllCardFooter {
+        gap: 10px;
+    }
+
+    .FooterBottom-RightSide {
+        gap: 10px;
+    }
+
+    .AllFooterLinks {
+        gap: 40px;
+        border-radius: 16px;
+        padding: 40px;
+
+    }
+
+
+}
+@media (max-width:1430px) {
+    .AllCardFooter .Card-Container {
+        flex-wrap: nowrap;
+    }
+}
+
+
+@media (max-width:1200px) {
+    .Footer {
+        padding-bottom: 20px;
+    }
+    .Footer-Bottom {
+        flex-direction: column;
+    }
+    .AllCardFooter {
+        display: none !important;
+    }
+    .MobileFooterCardContainer {
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .FooterBottom-RightSide {
+        width: 100%;
+    }
+
+    .AllFooterLinks {
+        gap: 30px;
+        align-items: flex-start;
+        justify-content: space-between;
+        border-radius: 14px;
+        padding: 24px;
+        flex-wrap: wrap;
+        
+    }
+    
+
+
+
+}

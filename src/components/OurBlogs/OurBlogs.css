@@ -1,0 +1,29 @@
+.OurBlogs {
+    margin-top: 191px;
+}
+
+.HeroBlogLeft {
+    width: 32.191%;
+}
+
+@media (max-width:1440px) {
+    .OurBlogs {
+        margin-top: 169px;
+    }
+
+    .HeroBlogLeft {
+        width: 32.2794%;
+    }
+
+}
+
+@media (max-width:992px) {
+    .OurBlogs {
+        margin-top: 133px;
+    }
+
+    .HeroBlog {
+        display: none;
+    }
+
+}

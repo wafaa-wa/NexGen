@@ -1,0 +1,102 @@
+.WorksLeftCard {
+    max-width: 579.33px;
+    border-radius: 14px;
+    padding: 60px 40px;
+    background-color: var(--priamry-dark);
+    gap: 40px;
+
+}
+
+.SuccessLeftCard {
+    width: 41.0439%;
+    gap: 50px;
+    border-radius: 14px;
+    padding: 60px;
+    background-color: var(--priamry-dark);
+    flex-grow: 1;
+
+}
+
+.ContentLeftCard {
+    gap: 12px;
+}
+
+
+
+.mobile {
+    display: none !important;
+}
+
+@media (max-width:1708px) {
+    .WorksLeftCard {
+        max-width: 440px;
+        padding: 50px 30px;
+        gap: 30px;
+
+    }
+
+    .SuccessLeftCard {
+        width: 43.75%;
+        gap: 40px;
+        border-radius: 12px;
+        padding: 40px;
+
+    }
+
+    .ContentLeftCard {
+        gap: 10px;
+    }
+
+    .SuccessLeftCard .ContentLeftCard {
+        flex-direction: column;
+    }
+
+
+
+
+}
+
+@media (max-width:992px) {
+    .WorksLeftCard {
+        width: 100%;
+        padding: 24px;
+        border-radius: 10px;
+        gap: 20px;
+
+    }
+
+    .SuccessLeftCard {
+        width: 338px;
+        gap: 20px;
+        border-radius: 10px;
+        padding: 20px;
+        background-color: var(--priamry-dark);
+
+    }
+
+    .SuccessLeftCard .TopCard {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ContentLeftCard {
+        gap: 8px;
+    }
+
+
+    .mobile {
+        display: block !important;
+    }
+
+    .WorksLeftCard .TopCard .Arrow1 {
+        display: none !important;
+    }
+
+}
+
+@media (max-width:440px) {
+    .SuccessLeftCard {
+        width: 100%;
+    }
+
+}

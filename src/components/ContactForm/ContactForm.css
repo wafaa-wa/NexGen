@@ -1,0 +1,239 @@
+.ContactForm {
+    width: 57.8571%;
+    gap: 50px;
+    border-radius: 14px;
+    padding: 50px;
+    background-color: var(--priamry-dark);
+
+}
+
+.RowInput {
+    gap: 50px;
+}
+
+.InputContainer,
+.phone-input-container {
+    width: 100% !important;
+    display: flex !important;
+    gap: 16px !important;
+}
+
+.InputContainer label {
+    font-family: "Roboto Mono";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: var(--dusty-rose);
+
+}
+
+.InputContainer input,
+.InputContainer textarea,
+.phone-input-field {
+    width: 100% !important;
+    border-radius: 12px !important;
+    padding: 20px !important;
+    border: 1px solid var(--medium-gray) !important;
+    background-color: var(--shadow-black) !important;
+    box-shadow: 0px 0px 0px 4px var(--shadow-input) !important;
+
+}
+
+
+.InputContainer input {
+    min-height: 67px;
+}
+
+.InputContainer textarea {
+    min-height: 163px;
+}
+
+
+.InputContainer input ::placeholder,
+.InputContainer textarea ::placeholder,
+.phone-input-field ::placeholder {
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 150% !important;
+    color: var(--medium-gray) !important;
+
+}
+
+.PhoneWrapper {
+    width: 100%;
+    gap: 16px;
+    align-items: center;
+}
+
+.PhoneIconContainer {
+    gap: 6px;
+    align-items: center;
+}
+
+.PhoneIconContainer .flag-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 11px;
+
+}
+
+.PhoneIconContainer .arrow-button-flag {
+    border: none;
+    background: none;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.PhoneIconContainer .arrow-button-flag img {
+    width: 24px;
+}
+
+
+.ContactFormBottom {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.AgreeCheckBox {
+    align-items: center;
+    gap: 10px;
+    border-top-width: 1px;
+}
+
+.AgreeCheckBox input {
+    width: 28px;
+    height: 28px;
+    border-radius: 7px;
+    background-color: var(--dark-gray);
+    border: 1px solid var(--steel-gray);
+}
+
+.ContactFormBottom .BtnDigitalSection {
+    background-color: var(--sunset-clay);
+    color: var(--pure-black);
+    border: none;
+
+}
+
+@media (max-width:1440px) {
+    .ContactForm {
+        width: 58.8235%;
+        gap: 40px;
+        border-radius: 12px;
+        padding: 40px;
+
+    }
+
+    .RowInput {
+        gap: 40px;
+    }
+
+    .InputContainer,
+    .phone-input-container {
+        gap: 14px !important;
+    }
+
+    .InputContainer label {
+        font-size: 16px;
+
+    }
+
+    .InputContainer input,
+    .InputContainer textarea,
+    .phone-input-field {
+        border-radius: 8px !important;
+        padding: 16px !important;
+
+    }
+
+    .InputContainer input {
+        min-height: 53px;
+    }
+
+    .InputContainer textarea {
+        min-height: 131px;
+    }
+
+    .InputContainer input ::placeholder,
+    .InputContainer textarea ::placeholder {
+        font-size: 14px;
+
+    }
+
+    .PhoneWrapper {
+        gap: 14px;
+    }
+
+    .PhoneIconContainer {
+        gap: 4px;
+    }
+
+    .PhoneIconContainer .flag-icon {
+        width: 46px;
+        height: 46px;
+        border-radius: 6px;
+
+    }
+
+
+    .PhoneIconContainer .arrow-button-flag img {
+        width: 20px;
+    }
+
+
+
+    .AgreeCheckBox {
+        gap: 6px;
+    }
+
+    .AgreeCheckBox input {
+        width: 22px;
+        height: 22px;
+        border-radius: 5px;
+    }
+
+}
+
+@media (max-width:1430px) {
+    .ContactForm {
+        width: 100%;
+    }
+
+}
+
+@media (max-width:992px) {
+    .ContactForm {
+        gap: 30px;
+        border-radius: 10px;
+        padding: 30px;
+
+    }
+
+    .RowInput {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .InputContainer,
+    .phone-input-container {
+        gap: 10px !important;
+    }
+
+    .InputContainer textarea {
+        min-height: 117px;
+    }
+
+    .PhoneWrapper {
+        gap: 10px;
+    }
+
+
+    .ContactFormBottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+
+}

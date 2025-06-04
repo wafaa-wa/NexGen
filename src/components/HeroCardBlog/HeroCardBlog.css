@@ -1,0 +1,57 @@
+.HeroCardBlog {
+    width: 65.6853%;
+    border-radius: 14px;
+    padding: 60px;
+    gap: 50px;
+    background-color: var(--priamry-dark);
+}
+
+.HeroCardBlog1,
+.HeroCardBlog1-1 {
+    gap: 20px;
+}
+
+.HeroCardBlog2 {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeroCardBlog2 .ArrowIcon {
+    padding: 20px;
+    background-color: var(--shadow-black);
+    border: 1px solid var(--medium-gray);
+
+}
+
+.HeroCardBlog2-2 {
+    align-items: center;
+    gap: 12px;
+
+}
+
+.HeroCardBlog2-2 h4 {
+    font-size: 24px;
+}
+
+@media (max-width:1440px) {
+    .HeroCardBlog {
+        width: 66.25%;
+        border-radius: 12px;
+        padding: 50px;
+        gap: 40px;
+    }
+
+    .HeroCardBlog1,
+    .HeroCardBlog1-1 {
+        gap: 16px;
+    }
+
+    .HeroCardBlog2-2 {
+        align-items: center;
+        gap: 10px;
+
+    }
+
+
+
+}

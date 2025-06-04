@@ -1,0 +1,29 @@
+.TopCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Container-Icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+}
+
+
+@media (max-width:1440px) {
+    .Container-Icon {
+        gap: 10px;
+    }
+
+
+}
+
+@media (max-width:992px) {
+    .Container-Icon {
+        gap: 14px;
+    }
+
+
+}

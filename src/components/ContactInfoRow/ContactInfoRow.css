@@ -1,0 +1,82 @@
+.ContactInfoRow {
+    gap: 16px;
+}
+
+.RequestType {
+    font-size: 20px;
+    color: var(--olive-gary);
+}
+
+.ContactInfoRowField {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 14px 10px 24px;
+    border-radius: 14px 100px 100px 14px;
+    background-color: var(--shadow-black);
+
+}
+
+.ContactInfoRowField p {
+    font-weight: 500;
+    color: var(--white);
+}
+
+.ContactInfoRowField .Btn-Icon {
+    width: 68px;
+    height: 68px;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.ContactInfoRowField .Btn-Icon img {
+    width: 28px;
+    height: 28px;
+}
+
+@media (max-width:1440px) {
+    .ContactInfoRow {
+        gap: 12px;
+    }
+
+    .RequestType {
+        font-size: 18px;
+
+    }
+
+    .ContactInfoRowField {
+        padding: 8px 10px 8px 20px;
+        border-radius: 10px 100px 100px 10px;
+
+    }
+
+
+    .ContactInfoRowField .Btn-Icon {
+        padding: 16px;
+        border-radius: 50%;
+    }
+
+}
+
+@media (max-width:992px) {
+    .ContactInfoRow {
+        gap: 10px;
+    }
+
+    .RequestType {
+        font-size: 16px;
+
+    }
+
+    .ContactInfoRowField .Btn-Icon {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+    }
+
+}
+
+@media (max-width:380px) {
+    .ContactInfoRowField .Btn-Icon {
+        display: none;
+    }
+}

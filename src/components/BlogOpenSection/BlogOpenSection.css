@@ -1,0 +1,259 @@
+.BlogOpenSection {
+    gap: 50px;
+
+}
+
+.BlogOpenImage {
+    min-height: 600px;
+    width: 100%;
+}
+
+.The-Selected-Blog {
+    align-items: flex-start;
+    gap: 20px;
+
+}
+
+.The-Selected-Blog-LeftSide {
+    width: 74.6842%;
+    padding-left: 152px;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.BlogContainerMediaBtn {
+    gap: 16px;
+}
+
+.The-Selectd-Blog-Open {
+    padding: 50px;
+    border-radius: 14px;
+    gap: 30px;
+    background-color: var(--priamry-dark);
+}
+
+.The-Selected-Blog-RightSide {
+    width: 24.2174%;
+    gap: 20px;
+}
+
+.AboutTheWriter,
+.SocialStats {
+    width: 100%;
+    padding: 20px;
+    border-radius: 14px;
+    gap: 20px;
+    background-color: var(--priamry-dark);
+}
+
+.ProfileData {
+    padding: 20px;
+    gap: 24px;
+}
+
+.ProfileData-Top {
+    border-bottom-width: 1px;
+    align-items: center;
+    gap: 15px;
+}
+
+.ProfileImageWriter {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.Name-Job {
+    gap: 2px;
+}
+
+.Name-Job h4 {
+    font-size: 20px;
+    color: var(--dusty-rose);
+}
+
+.Name-Job p {
+    color: var(--olive-gary);
+}
+
+.ProfileData-Bottom {
+    padding: 18px 24px;
+    border-top-width: 2px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--shadow-black);
+}
+
+.ProfileData-Bottom-Left {
+    align-items: center;
+    gap: 10px;
+
+}
+
+.ProfileData-Bottom-Left img {
+    width: 24px;
+    height: 24px;
+}
+
+.ProfileData-Bottom-Left p {
+    font-family: "Roboto Mono";
+    font-size: 20px;
+    color: var(--silver-dust);
+}
+
+.Arrow-ProfileData-Bottom {
+    width: 28px;
+    height: 28px;
+}
+
+@media (max-width:1440px) {
+    .BlogOpenSection {
+        gap: 30px;
+
+    }
+
+    .The-Selected-Blog {
+        gap: 10px;
+
+    }
+
+    .The-Selected-Blog-LeftSide {
+        width: 75.3495%;
+        padding-left: 115px;
+        gap: 10px;
+    }
+
+    .BlogContainerMediaBtn {
+        gap: 12px;
+    }
+
+    .The-Selectd-Blog-Open {
+        padding: 40px;
+        border-radius: 12px;
+        gap: 24px;
+    }
+
+    .The-Selected-Blog-RightSide {
+        width: 23.9146%;
+        gap: 10px;
+    }
+
+    .AboutTheWriter,
+    .SocialStats {
+        padding: 10px;
+        border-radius: 12px;
+
+    }
+
+    .AboutTheWriter {
+        gap: 16px;
+
+    }
+
+    .ProfileData {
+        padding: 16px;
+        gap: 20px;
+    }
+
+    .ProfileData-Top {
+        gap: 12px;
+    }
+
+    .ProfileImageWriter {
+        width: 60px;
+        height: 60px;
+    }
+
+    .Name-Job {
+        gap: 0px;
+    }
+
+    .Name-Job h4 {
+        font-size: 18px;
+    }
+
+
+    .ProfileData-Bottom {
+        padding: 14px 20px;
+        gap: 8px;
+    }
+
+    .ProfileData-Bottom-Left {
+        gap: 8px;
+
+    }
+
+    .ProfileData-Bottom-Left img {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .Arrow-ProfileData-Bottom {
+        width: 24px;
+        height: 24px;
+    }
+
+    .SocialStats {
+        gap: 10px;
+    }
+
+}
+
+@media (max-width:1200px) {
+    .BlogOpenSection {
+        gap: 20px;
+
+    }
+
+    .BlogOpenImage {
+        min-height: 240px;
+    }
+
+    .The-Selected-Blog {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .The-Selected-Blog-LeftSide {
+        width: 100%;
+        padding-left: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .BlogContainerMediaBtn {
+        flex-direction: row;
+    }
+
+    .The-Selectd-Blog-Open {
+        padding: 24px;
+        gap: 16px;
+    }
+
+    .The-Selected-Blog-RightSide {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .AboutTheWriter {
+        padding: 24px;
+        border-radius: 10px;
+
+    }
+
+
+    .ProfileData {
+        padding: 0px;
+    }
+
+
+    .SocialStats {
+        padding: 10px;
+        border-radius: 12px;
+    }
+
+}

@@ -1,0 +1,29 @@
+.SectionOfSelectedBlogOpen {
+    gap: 14px;
+}
+
+.InformationBlog {
+    padding-left: 50px;
+    gap: 10px;
+}
+
+@media (max-width:1440px) {
+    .SectionOfSelectedBlogOpen {
+        gap: 12px;
+    }
+
+    .InformationBlog {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width:992px) {
+    .SectionOfSelectedBlogOpen {
+        gap: 8px;
+    }
+
+    .InformationBlog {
+        padding-left: 20px;
+    }
+
+}

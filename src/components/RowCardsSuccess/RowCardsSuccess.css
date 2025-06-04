@@ -1,0 +1,30 @@
+.RowCardsSuccess {
+    gap: 20px;
+    justify-content: space-between;
+    border-radius: 20px;
+    border: 2px solid var(--shadow-black);
+    padding: 50px;
+
+}
+
+@media (max-width:1440px) {
+    .RowCardsSuccess {
+        gap: 10px;
+        border-radius: 16px;
+        border: 2px solid var(--shadow-black);
+        padding: 30px;
+
+    }
+
+}
+
+@media (max-width:992px) {
+    .RowCardsSuccess {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+
+    }
+
+}

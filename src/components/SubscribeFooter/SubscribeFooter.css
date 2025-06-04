@@ -1,0 +1,98 @@
+.SubscribeFooter {
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 16px;
+    padding: 50px;
+    background-color: var(--priamry-dark);
+
+}
+
+.Subscribe-left-Side {
+    gap: 20px;
+}
+
+.Subscribe-left-Side p {
+    color: var(--slate-gray);
+}
+
+.Subscribe-Right-Side {
+    width: 44.3019%;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.Subscribe-Right-Side input {
+    width: 100%;
+    padding: 18px 20px;
+    border-bottom: 1px solid var(--medium-gray) !important;
+    background-color: var(--priamry-dark);
+    border: none;
+
+}
+
+.Subscribe-Right-Side input ::placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--slate-gray);
+
+}
+
+@media (max-width:1440px) {
+    .SubscribeFooter {
+        gap: 16px;
+        padding: 40px;
+
+    }
+
+    .Subscribe-left-Side {
+        gap: 8px;
+    }
+
+    .Subscribe-Right-Side {
+        gap: 10px;
+    }
+
+    .Subscribe-Right-Side input {
+
+        padding: 14px 16px;
+
+    }
+
+    .Subscribe-Right-Side input ::placeholder {
+        font-size: 16px;
+
+
+    }
+
+}
+
+@media (max-width:1200px) {
+    .SubscribeFooter {
+        padding: 24px;
+        border-radius: 14px;
+        flex-direction: column;
+        align-items: start;
+
+    }
+
+    .Subscribe-left-Side {
+        gap: 4px;
+    }
+
+    .Subscribe-Right-Side {
+        width: 100%;
+        gap: 8px;
+    }
+
+
+    .Subscribe-Right-Side input ::placeholder {
+        font-size: 14px;
+
+
+    }
+
+}

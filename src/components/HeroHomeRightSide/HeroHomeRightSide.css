@@ -1,0 +1,62 @@
+.HeroHomeRightSide {
+    width: 32.5824%;
+    border-radius: 14px;
+    justify-content: flex-start;
+    position: relative;
+
+}
+
+.HeroHomeImg {
+    width: 100%;
+    min-height: 465px;
+
+}
+
+.Logo-Right-Side {
+    position: absolute;
+    right: 13px;
+    top: 10px;
+}
+
+.HeroHomeRightSide-Bottom {
+    min-height: 127px;
+    padding: 30px;
+    gap: 4px;
+    background-color: var(--shadow-black);
+}
+
+.HeroHomeRightSide-Bottom h4 {
+    font-size: 24px;
+}
+
+@media (max-width:1440px) {
+    .HeroHomeRightSide {
+        width: 33.2352%;
+        border-radius: 12px;
+    }
+
+    .HeroHomeImg {
+        min-height: 368px;
+    }
+
+    .Logo-Right-Side {
+        width: 111px;
+        right: 0;
+
+    }
+
+    .HeroHomeRightSide-Bottom {
+        padding: 24px;
+        gap: 2px;
+    }
+
+
+}
+
+@media (max-width:1200px) {
+    .HeroHomeRightSide {
+        display: none;
+    }
+
+
+}

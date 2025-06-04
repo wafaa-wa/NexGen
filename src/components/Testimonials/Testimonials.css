@@ -1,0 +1,38 @@
+@media (max-width:1708px) {
+
+
+
+    .Testimonials .Style-Section {
+        padding: 10px;
+        border-radius: 20px;
+        gap: 10px;
+    }
+
+    .HomeWorks .Style-Section2 {
+        gap: 10px;
+    }
+
+    .Testimonials .Card-Container,
+    .HomeWorks .Card-Container {
+        gap: 10px;
+    }
+
+    .Testimonials h2,
+    .HomeWorks h2 {
+        font-size: 38px;
+
+
+    }
+
+    .Testimonials h3,
+    .HomeWorks h3 {
+        font-size: 22px;
+    }
+
+    .Testimonials p,
+    .HomeWorks p {
+        font-size: 16px;
+    }
+
+
+}

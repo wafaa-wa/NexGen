@@ -1,0 +1,74 @@
+.SuccessCardRight {
+    width: 52.3626%;
+    gap: 20px;
+}
+
+.AllFulterBtn {
+    gap: 12px;
+}
+
+.R-SuccessRight {
+    gap: 14px;
+    border-radius: 14px;
+    padding: 40px;
+    background-color: var(--priamry-dark);
+
+}
+
+.R-SuccessRight h2 {
+    font-family: "Roboto Mono";
+    font-weight: 400;
+    font-family: Roboto Flex;
+    text-transform: uppercase;
+
+}
+
+@media (max-width:1708px) {
+    .SuccessCardRight {
+        max-width: 695px;
+        gap: 10px;
+    }
+
+    .AllFulterBtn {
+        gap: 10px;
+    }
+
+    .R-SuccessRight {
+        gap: 10px;
+        border-radius: 12px;
+        padding: 30px;
+
+    }
+
+    .R-SuccessRight h2 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width:992px) {
+    .AllFulterBtn {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .SuccessCardRight {
+        width: 338px;
+    }
+
+    .R-SuccessRight {
+        gap: 8px;
+        padding: 24px;
+
+    }
+
+    .R-SuccessRight h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:440px) {
+    .SuccessCardRight {
+        width: 100%;
+    }
+
+}

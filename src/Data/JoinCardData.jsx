@@ -1,0 +1,58 @@
+export const JoinCardData = [
+    {
+        id:1,
+        IconImag: "/images/Career Page/Join/Pipette.svg",
+        IconText: "Web Designer",
+        ArrowText: "View Details",
+        RowCircle: [
+            { Text1: "Salary", Text2: "$45,000 - $60,000 per year" },
+            { Text1: "Experience", Text2: "1+ year" },
+            { Text1: "Deadline", Text2: "30/09/2025" },
+        ],
+        CardText: "Proficiency in Adobe Creative Suite (Photoshop, Illustrator, etc.), strong understanding of UI/UX design principles, responsive design expertise.",
+        CardTitle: "Skills",
+        EndCardBtn: "Apply NoW",
+    },
+    {
+        id:2,
+        IconImag: "/images/Career Page/Join/Smartphone 2.svg",
+        IconText: "Mobile App Developer",
+        ArrowText: "View Details",
+        RowCircle: [
+            { Text1: "Salary", Text2: "$55,000 - $75,000 per year" },
+            { Text1: "Experience", Text2: "2+ years" },
+            { Text1: "Deadline", Text2: "15/10/2025" },
+        ],
+        CardText: "Proficiency in iOS or Android development (Swift, Kotlin), knowledge of mobile app design patterns, experience with mobile testing and debugging.",
+        CardTitle: "Skills",
+        EndCardBtn: "Apply NoW",
+    },
+    {
+        id:3,
+        IconImag: "/images/Career Page/Join/Widget 6.svg",
+        IconText: "Digital Marketing Specialist",
+        ArrowText: "View Details",
+        RowCircle: [
+            { Text1: "Salary", Text2: "$50,000 - $65,000 per year" },
+            { Text1: "Experience", Text2: "3+ years" },
+            { Text1: "Deadline", Text2: "20/11/2025" },
+        ],
+        CardText: "Proficiency in SEO, SEM, and social media marketing, experience with analytics tools (Google Analytics, etc.), content marketing expertise.",
+        CardTitle: "Skills",
+        EndCardBtn: "Apply NoW",
+    },
+    {
+        id:4,
+        IconImag: "/images/Career Page/Join/Suitcase.svg",
+        IconText: "Project Manager",
+        ArrowText: "View Details",
+        RowCircle: [
+            { Text1: "Salary", Text2: "$60,000 - $80,000 per year" },
+            { Text1: "Experience", Text2: "5+ years" },
+            { Text1: "Deadline", Text2: "05/12/2025" },
+        ],
+        CardText: "Strong organizational and communication skills, ability to manage project timelines and resources, experience in Agile project management methodologies.",
+        CardTitle: "Skills",
+        EndCardBtn: "Apply NoW",
+    },
+]

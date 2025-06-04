@@ -1,0 +1,158 @@
+.NavBar {
+    width: 94.7916%;
+    height: 111px;
+    padding: 24px 24px 24px 50px;
+    position: fixed;
+    top: 30px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--priamry-dark);
+    border: 1px solid var(--Shadow-black1);
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.Logo {
+    width: 129.71px;
+    height: 24px;
+
+}
+
+.MenuLinks {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+    margin: 0;
+
+}
+
+.MenuLinks li {
+    padding: 18px 24px;
+    border-radius: 12px;
+    background-color: var(--pure-black);
+    cursor: pointer;
+
+}
+
+.MenuLinks li a {
+    text-decoration: none;
+    font-family: "Roboto Mono";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--olive-gary);
+
+
+}
+
+.MenuLinks li a.active {
+    color: var(--peach-blush);
+}
+
+.MenuLinks li:last-child {
+    background-color: var(--sunset-clay);
+
+
+}
+
+.MenuLinks li:last-child a {
+    color: var(--pure-black);
+
+}
+
+.MenuIcon {
+    display: none;
+}
+
+@media (max-width:1440px) {
+    .NavBar {
+        width: 94.4444%;
+        height: 89px;
+        padding: 20px 20px 20px 40px;
+        border-radius: 14px;
+    }
+
+    .Logo {
+        width: 97.28px;
+        height: 18px;
+
+    }
+
+    .MenuLinks {
+        gap: 14px;
+
+    }
+
+    .MenuLinks li {
+        padding: 14px 20px;
+        border-radius: 10px;
+
+    }
+
+    .MenuLinks li a {
+        font-size: 14px;
+
+
+
+    }
+
+}
+
+@media (max-width:992px) {
+    .NavBar {
+        width: 91.7948%;
+        height: 72px;
+        padding: 14px;
+        border-radius: 10px;
+        top: 41px;
+    }
+
+    .Logo {
+        width: 86.47px;
+        height: 16px;
+
+    }
+
+    .MenuLinks {
+        display: none;
+    }
+
+    .MenuLinks.open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 20px;
+        top: 40px;
+        padding: 10px;
+        z-index: 1000;
+        gap: 0;
+    }
+
+    .MenuLinks li {
+        width: 100%;
+        height: fit-content !important;
+        border: 2px solid var(--peach-blush);
+        padding: 18px 24px;
+        background-color: var(--pure-black);
+
+    }
+
+    .MenuIcon {
+        display: block !important;
+        position: relative;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: var(--pure-black);
+        border: none;
+        cursor: pointer;
+    }
+
+    .MenuIcon img {
+        width: 24px;
+    }
+}

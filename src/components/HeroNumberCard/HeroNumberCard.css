@@ -1,0 +1,105 @@
+.HomeHeroNumberCard,
+.AboutHeroNumberCard,
+.ContactHeroNumberCard {
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.HomeHeroNumberCard {
+    width: 16.66%;
+    min-height: 150px;
+    padding: 30px 20px;
+    background-color: var(--priamry-dark);
+
+}
+
+.AboutHeroNumberCard {
+    width: 47%;
+    min-height: 150px;
+    padding: 30px 20px;
+    background-color: var(--shadow-black);
+}
+
+.ContactHeroNumberCard {
+    width: 47%;
+    min-height: 147px;
+    padding: 42px 20px;
+    background-color: var(--shadow-black);
+
+}
+
+.HomeHeroNumberCard p,
+.AboutHeroNumberCard p {
+    font-family: "Roboto Mono";
+    font-weight: 500;
+}
+
+.HomeHeroNumberCard h2,
+.AboutHeroNumberCard h2 {
+    font-size: 60px;
+    line-height: 150%;
+    color: var(--sunset-blush);
+}
+
+@media (max-width:1440px) {
+
+    .HomeHeroNumberCard {
+        padding: 20px 16px;
+        border-radius: 12px;
+        gap: 12px;
+    }
+
+    .AboutHeroNumberCard {
+        padding: 24px 16px;
+        border-radius: 14px;
+        gap: 14px;
+    }
+
+    .ContactHeroNumberCard {
+        padding: 46px 16px;
+        border-radius: 12px;
+        gap: 12px;
+    }
+
+
+    .HomeHeroNumberCard h2,
+    .AboutHeroNumberCard h2 {
+        font-size: 40px;
+
+    }
+
+    .HomeHeroNumberCard p,
+    .AboutHeroNumberCard p {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width:1200px) {
+
+    .HomeHeroNumberCard,
+    .ContactHeroNumberCard {
+        width: 48%;
+        padding: 16px 14px;
+        gap: 10px;
+    }
+
+    .AboutHeroNumberCard {
+        padding: 16px 14px;
+        border-radius: 12px;
+        gap: 10px;
+    }
+
+
+    .HomeHeroNumberCard h2 {
+        font-size: 40px;
+
+    }
+
+}

@@ -1,0 +1,84 @@
+.InfinityRowScrollHero {
+    width: 100%;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: var(--pure-black);
+
+}
+
+.InfinityRowScrollFooter {
+    width: 100%;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: var(--priamry-dark);
+
+}
+
+.InfinityRowScrollContent {
+    gap: 20px;
+    align-items: center;
+}
+
+.InfinityRowScrollContent span {
+    font-family: "Roboto Mono";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--nutral-gray);
+}
+
+.InfinityRowScrollContent span img {
+    width: 7px;
+    height: 7px;
+    margin: 0 20px;
+}
+
+@media (max-width:1440px) {
+
+    .InfinityRowScrollFooter,
+    .InfinityRowScrollHero {
+        border-radius: 10px;
+        padding: 16px;
+
+    }
+
+    .InfinityRowScrollContent {
+        gap: 16px;
+    }
+
+    .InfinityRowScrollContent span {
+        font-size: 16px;
+
+    }
+
+    .InfinityRowScrollContent span img {
+        margin: 0 16px;
+    }
+
+
+}
+
+@media (max-width:992px) {
+
+    .InfinityRowScrollFooter,
+    .InfinityRowScrollHero {
+        border-radius: 8px;
+        padding: 14px;
+
+    }
+
+    .InfinityRowScrollContent {
+        gap: 10px;
+    }
+
+    .InfinityRowScrollContent span {
+        font-size: 14px;
+
+    }
+
+    .InfinityRowScrollContent span img {
+        margin: 0 10px;
+    }
+
+
+}

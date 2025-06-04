@@ -1,0 +1,78 @@
+.SocialStatsRow {
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.SocialStatsRow-Right {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    border-radius: 14px;
+    padding: 20px;
+    background-color: var(--shadow-black);
+
+}
+
+.SocialStatsRow-Right p:first-child {
+    font-family: "Roboto Mono";
+    font-weight: 500;
+
+}
+
+.SocialStatsDetails {
+    gap: 10px;
+    align-items: center;
+}
+
+.SocialStatsDetails .NumberReaction {
+    font-family: "Roboto Mono";
+    font-weight: 500;
+    color: var(--white);
+
+}
+
+.SocialStatsDetails .line {
+    height: 27px;
+    border: 2px solid var(--steel-gray);
+}
+
+.SocialStatsDetails .Users {
+    font-size: 16px;
+    color: var(--olive-gary);
+
+}
+
+@media (max-width:1440px) {
+    .SocialStatsRow {
+        gap: 8px;
+    }
+
+    .SocialStatsRow-Right {
+        gap: 12px;
+        border-radius: 10px;
+        padding: 16px;
+
+    }
+
+    .SocialStatsRow-Right p:first-child {
+        font-size: 14px;
+
+    }
+
+    .SocialStatsDetails {
+        gap: 8px;
+    }
+
+    .SocialStatsDetails .line {
+        height: 24px;
+    }
+
+    .SocialStatsDetails .Users {
+        font-size: 14px;
+
+
+    }
+
+}

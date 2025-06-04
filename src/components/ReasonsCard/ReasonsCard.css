@@ -1,0 +1,200 @@
+.ReasonsCard {
+    width: 24.8554%;
+    border-radius: 14px;
+    padding: 40px;
+    background-color: var(--priamry-dark);
+    gap: 40px;
+
+}
+
+.TestimonialsCard {
+    width: 24.8554%;
+    min-height: 404px;
+    border-radius: 16px;
+    background-color: var(--priamry-dark);
+    justify-content: flex-start;
+
+}
+
+.ReasonsCard .ReaCardTop {
+
+    gap: 12px;
+}
+
+.TestimonialsCard .ReaCardTop {
+    min-height: 284px;
+    padding: 40px;
+    gap: 24px;
+    flex-grow: 1;
+
+}
+
+
+
+.TestimonialsCard .ReaCardTop h3 {
+    font-size: 24px;
+}
+
+
+.TestimonialsCardBottom {
+    width: 100%;
+    min-height: 120px;
+    padding: 30px 40px;
+    background-color: var(--shadow-black);
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 0;
+
+}
+
+.T-Left {
+    border-bottom-width: 1px;
+    gap: 15px;
+}
+
+.T-Left img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+.T-left-Text {
+    gap: 2px;
+}
+
+.T-left-Text h5 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--dusty-rose);
+
+}
+
+.T-left-Text p {
+    color: var(--olive-gary);
+}
+
+
+
+.RightArrow img {
+    width: 24px;
+
+}
+
+@media (max-width:1708px) {
+    .ReasonsCard {
+        width: 327.5px;
+        border-radius: 12px;
+        padding: 30px;
+        gap: 30px;
+
+    }
+
+    .TestimonialsCard {
+        width: 327.5px;
+        min-height: 357px;
+        border-radius: 14px;
+
+    }
+
+    .ReasonsCard .ReaCardTop {
+        min-height: 148px;
+        gap: 10px;
+    }
+
+    .TestimonialsCard .ReaCardTop {
+        min-height: 266px;
+        padding: 30px;
+        gap: 20px;
+
+    }
+
+    .TestimonialsCardBottom {
+        min-height: 91px;
+        padding: 20px 30px;
+
+
+    }
+
+    .T-Left {
+        gap: 10px;
+    }
+
+    .T-Left img {
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .T-left-Text {
+        gap: 0px;
+    }
+
+    .T-left-Text h5 {
+        font-size: 18px;
+
+    }
+
+
+
+}
+
+
+@media (max-width:992px) {
+    .ReasonsCard {
+        width: 338px;
+        padding: 24px;
+        gap: 24px;
+
+    }
+
+    .TestimonialsCard {
+        width: 338px;
+        min-height: 279px;
+        border-radius: 10px;
+
+    }
+
+    .ReasonsCard .ReaCardTop {
+        gap: 8px;
+    }
+
+    .TestimonialsCard .ReaCardTop {
+        min-height: 202px;
+        padding: 24px;
+        gap: 16px;
+
+    }
+
+    .TestimonialsCard .ReaCardTop h3 {
+        font-size: 18px;
+    }
+
+    .TestimonialsCardBottom {
+        min-height: 77px;
+        padding: 16px 20px;
+
+
+    }
+
+    .T-Left {
+        gap: 8px;
+    }
+
+    .T-Left img {
+        width: 40px;
+        height: 40px;
+
+    }
+
+
+    .T-left-Text h5 {
+        font-size: 16px;
+
+    }
+
+
+
+
+}

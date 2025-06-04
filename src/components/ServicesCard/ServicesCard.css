@@ -1,0 +1,178 @@
+.ServicesCard,
+.JoinCard {
+    width: 49.4382%;
+    border-radius: 14px;
+    background-color: var(--priamry-dark);
+
+
+}
+
+.ServicesCard {
+    padding: 80px;
+    gap: 50px;
+
+}
+
+.JoinCard {
+    gap: 40px;
+    padding: 50px;
+
+}
+
+.JoinCard .TopCard .Btn-Icon {
+    width: 74px;
+    height: 74px;
+    padding: 20px;
+}
+
+.JoinCard .TopCard .Arrow1 .ArrowIcon {
+    width: 68px;
+    height: 68px;
+    padding: 20px;
+}
+
+.RowCircleJoin {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.ServicesCard .ServCardBottom {
+    gap: 20px;
+}
+
+.ServicesCard .ServCardBottom h3 {
+    text-align: right;
+}
+
+.JoinCard .ServCardBottom {
+    flex-direction: column-reverse;
+    gap: 12px;
+}
+
+.JoinCard .ServCardBottom h3 {
+    font-size: 24px;
+}
+
+.CardText-OnMobile {
+    display: none;
+
+}
+
+@media (max-width:1440px) {
+    .ServicesCard {
+        width: 49.6290%;
+        padding: 60px;
+        gap: 40px;
+
+
+    }
+
+    .JoinCard {
+        width: 665px;
+        padding: 40px;
+        gap: 30px;
+    }
+
+    .JoinCard .TopCard .Btn-Icon {
+        width: 60px;
+        height: 60px;
+        padding: 16px;
+    }
+
+    .JoinCard .TopCard .Arrow1 .ArrowIcon {
+        width: 56px;
+        height: 56px;
+        padding: 16px;
+    }
+
+    .RowCircleJoin {
+        gap: 16px;
+    }
+
+    .ServicesCard .ServCardBottom {
+        gap: 16px;
+    }
+
+    .JoinCard .ServCardBottom {
+        gap: 8px;
+    }
+
+    .JoinCard .ServCardBottom h3 {
+        font-size: 20px;
+
+    }
+}
+
+@media (max-width:1400px) {
+
+    .ServicesCard .TopCard .Arrow1,
+    .JoinCard .TopCard .Arrow1 {
+        display: none;
+    }
+}
+
+@media (max-width:992px) {
+    .ServicesCard {
+        justify-content: space-between;
+        width: 338px;
+        padding: 24px;
+        gap: 20px;
+
+    }
+
+    .JoinCard {
+        width: 338px;
+        padding: 24px;
+        gap: 24px;
+    }
+
+    .JoinCard .TopCard .Btn-Icon {
+        width: 56px;
+        height: 56px;
+        padding: 16px;
+    }
+
+
+    .RowCircleJoin {
+        gap: 12px;
+    }
+
+    .ServicesCard .ServCardBottom {
+        flex-direction: column-reverse;
+        gap: 6px;
+        align-items: flex-start;
+    }
+
+    .JoinCard .ServCardBottom {
+        gap: 6px;
+    }
+
+    .JoinCard .ServCardBottom h3 {
+        font-size: 16px;
+
+    }
+
+    .ArorowOnMobile .Arrow1 .ArrowIcon {
+        width: 48px;
+        height: 48px;
+        padding: 14px;
+    }
+
+    .CardText-OnMobile {
+        display: block !important;
+        width: 100%;
+        border-radius: 8px;
+        padding: 14px 20px;
+        background-color: var(--sunset-clay);
+        font-weight: 500;
+        color: var(--pure-black);
+        text-align: center;
+
+
+
+
+    }
+
+}

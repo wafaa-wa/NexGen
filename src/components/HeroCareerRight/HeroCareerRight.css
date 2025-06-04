@@ -1,0 +1,46 @@
+.HeroCareerRight {
+    width: 32.5824%;
+    padding: 50px;
+    border-radius: 14px;
+    gap: 50px;
+    background-color: var(--priamry-dark);
+}
+
+.HeroCareerRight-Top {
+    gap: 20px;
+}
+
+.HeroCareerRight .ArrowIcon {
+    padding: 14px;
+}
+
+@media (max-width:1440px) {
+    .HeroCareerRight {
+        width: 32.5735%;
+        padding: 40px;
+        border-radius: 12px;
+        gap: 40px;
+    }
+
+    .HeroCareerRight-Top {
+        gap: 16px;
+    }
+
+    .HeroCareerRight-Top h3 {
+        font-size: 24px;
+    }
+
+}
+
+@media (max-width:1200px) {
+    .HeroCareerRight {
+        width: 100%;
+        padding: 24px;
+        gap: 30px;
+    }
+
+    .HeroCareerRight-Top {
+        gap: 12px;
+    }
+
+}

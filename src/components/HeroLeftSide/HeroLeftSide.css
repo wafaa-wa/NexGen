@@ -1,0 +1,29 @@
+.HeroLeftSide {
+    width: 66.3186%;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    border-radius: 20px;
+    padding: 100px 20px 20px;
+    background-color: var(--priamry-dark);
+
+
+}
+
+@media (max-width:1440px) {
+    .HeroLeftSide {
+        width: 65.5882%;
+        border-radius: 16px;
+        padding: 80px 16px 16px;
+        gap: 78px;
+    }
+}
+
+@media (max-width:1200px) {
+    .HeroLeftSide {
+        width: 100%;
+        border-radius: 12px;
+        padding: 30px 16px 16px;
+        gap: 31px;
+    }
+}

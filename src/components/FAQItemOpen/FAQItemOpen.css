@@ -1,0 +1,98 @@
+.FAQItemOpen {
+    width: 100%;
+    border-radius: 16px;
+    background-color: var(--priamry-dark);
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.FAQItemOpen.open {
+    gap: 50px;
+    padding: 60px;
+
+}
+
+.FAQItemOpen.closed {
+    gap: 30px;
+    border: 1px solid var(--shadow-black);
+    padding: 40px 60px;
+
+
+}
+
+.FAQItemOpen .FAQLeftSide {
+    gap: 30px;
+}
+
+.In-Small-Screen {
+    display: none !important;
+}
+
+.FAQLine {
+    width: 100%;
+    border: 1px solid var(--dark-gray);
+}
+
+@media (max-width:1440px) {
+
+    .FAQItemOpen.open {
+        gap: 40px;
+        padding: 40px;
+
+    }
+
+    .FAQItemOpen.closed {
+        padding: 30px 40px;
+
+
+    }
+
+    .FAQLeftSide {
+        gap: 24px;
+    }
+
+}
+
+@media (max-width:992px) {
+    .FAQItemOpen {
+        max-width: 358px;
+        border-radius: 14px;
+        gap: 20px;
+
+    }
+
+    .FAQItemOpen.open {
+        padding: 30px;
+
+    }
+
+    .FAQItemOpen.closed {
+        padding: 24px 30px;
+
+
+
+    }
+
+    .FAQLeftSide {
+        gap: 20px;
+    }
+
+    .TitleContainerFAQ {
+        gap: 20px;
+    }
+
+    .In-Big-Screen {
+        display: none !important;
+    }
+
+    .In-Small-Screen {
+        display: block !important;
+    }
+
+}
+@media (max-width:410px) {
+    .FAQItemOpen {
+        width: 100%;
+    }
+}

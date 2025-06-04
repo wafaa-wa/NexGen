@@ -1,0 +1,126 @@
+.HeroServicesRirghtSide,
+.HeroProjectRirghtSide {
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    position: relative;
+
+}
+
+.HeroServicesRirghtSide {
+    background-image: url('/images/Hero/HeroServices/HeroServicesImg.png');
+    width: 32.5824%;
+
+}
+
+.HeroProjectRirghtSide {
+    background-image: url('/images/Hero/HeroProject/HeroProjectImg.png');
+    width: 35.0887%;
+    min-height: 537px;
+}
+
+.HeroServicesRirghtSide::before,
+.HeroProjectRirghtSide::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--sunset-glass-clay);
+    mix-blend-mode: color;
+}
+
+.ServicesRightRowImg {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.HeroProjectRirghtSide .ServicesRightRowImg {
+    flex-direction: row-reverse;
+}
+
+.ServicesRightRowImg .ArrowIcon {
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    border: none;
+    background-color: var(--white);
+}
+
+.ServicesRightRowImg .ArrowText {
+    color: var(--white);
+}
+
+.RightText {
+    font-size: 16px;
+    padding: 10px 14px;
+    border-radius: 14px;
+    background-color: var(--glass-white);
+}
+
+@media (max-width:1440px) {
+
+    .HeroServicesRirghtSide,
+    .HeroProjectRirghtSide {
+
+        padding: 24px;
+        border-radius: 16px;
+    }
+
+    .HeroServicesRirghtSide {
+        width: 32.5735%;
+
+    }
+
+    .HeroProjectRirghtSide {
+        min-height: 410px;
+        width: 35.1587%;
+    }
+
+
+    .ServicesRightRowImg .ArrowIcon {
+        width: 36px;
+        height: 36px;
+        padding: 8px;
+    }
+
+
+    .RightText {
+        font-size: 14px;
+        border-radius: 10px;
+    }
+
+}
+
+@media (max-width:1200px) {
+    .HeroServicesRirghtSide {
+        width: 100%;
+        min-height: 364px;
+        padding: 20px;
+        border-radius: 14px;
+    }
+
+    .HeroProjectRirghtSide {
+        width: 100%;
+        min-height: 324px;
+        padding: 16px;
+        border-radius: 14px;
+    }
+
+    .RightText {
+        font-size: 12px;
+        border-radius: 6px;
+        padding: 8px 10px;
+    }
+
+}

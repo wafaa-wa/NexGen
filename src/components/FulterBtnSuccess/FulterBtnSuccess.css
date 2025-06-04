@@ -1,0 +1,32 @@
+.FulterBtnSuccess {
+    border-radius: 12px;
+    padding: 18px 24px;
+    background-color: var(--shadow-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--nutral-gray);
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.FulterBtnSuccess.active {
+    background-color: var(--sunset-clay);
+    color: var(--pure-black);
+}
+
+@media (max-width:1440px) {
+    .FulterBtnSuccess {
+        border-radius: 8px;
+        padding: 14px 20px;
+        font-size: 14px;
+        width: 31.3609%;
+        flex-shrink: 0;
+
+    }
+}
