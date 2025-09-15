@@ -1,20 +1,27 @@
 .ReasonsCard {
+    cursor: pointer;
     width: 24.8554%;
     border-radius: 14px;
     padding: 40px;
     background-color: var(--priamry-dark);
     gap: 40px;
+    will-change: transform;
+
 
 }
 
 .TestimonialsCard {
+    cursor: pointer;
     width: 24.8554%;
     min-height: 404px;
     border-radius: 16px;
     background-color: var(--priamry-dark);
     justify-content: flex-start;
+    will-change: transform;
 
 }
+
+
 
 .ReasonsCard .ReaCardTop {
 

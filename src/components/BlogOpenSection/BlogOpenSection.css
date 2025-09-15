@@ -1,10 +1,11 @@
 .BlogOpenSection {
     gap: 50px;
+    margin-top: 191px;
 
 }
 
 .BlogOpenImage {
-    min-height: 600px;
+    height: 350px;
     width: 100%;
 }
 
@@ -15,8 +16,7 @@
 }
 
 .The-Selected-Blog-LeftSide {
-    width: 74.6842%;
-    padding-left: 152px;
+    width: 60%;
     align-items: flex-start;
     gap: 20px;
 }
@@ -33,7 +33,7 @@
 }
 
 .The-Selected-Blog-RightSide {
-    width: 24.2174%;
+    width: 40%;
     gap: 20px;
 }
 
@@ -119,8 +119,6 @@
     }
 
     .The-Selected-Blog-LeftSide {
-        width: 75.3495%;
-        padding-left: 115px;
         gap: 10px;
     }
 
@@ -135,7 +133,6 @@
     }
 
     .The-Selected-Blog-RightSide {
-        width: 23.9146%;
         gap: 10px;
     }
 
@@ -219,7 +216,6 @@
 
     .The-Selected-Blog-LeftSide {
         width: 100%;
-        padding-left: 0px;
         flex-direction: column;
         justify-content: center;
         align-items: center;

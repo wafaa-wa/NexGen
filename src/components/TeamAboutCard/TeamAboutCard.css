@@ -4,6 +4,7 @@
     background-color: var(--priamry-dark);
     justify-content: flex-start;
     position: relative;
+    will-change: transform;
 
 }
 

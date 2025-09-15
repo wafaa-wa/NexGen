@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+
 }
 
 .ArrowIcon {
@@ -11,6 +12,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    animation: shake-glow 4s infinite ease-in-out;
 
 }
 
@@ -32,12 +35,22 @@
 
 }
 
+.ArrowIcon:active {
+    transform: scale(1.1);
+}
+
 .Arrow .ArrowIcon img {
     width: 28px;
+    transition: transform 0.3s ease;
 }
 
 .Arrow1 .ArrowIcon img {
     width: 24x;
+    transition: transform 0.3s ease;
+}
+
+.ArrowIcon:hover img {
+    transform: translateX(4px);
 }
 
 .ArrowText {
@@ -47,6 +60,38 @@
     letter-spacing: 0%;
     color: var(--nutral-gray);
 
+}
+
+@keyframes shake-glow {
+
+    0%,
+    100% {
+        transform: translateX(0);
+        box-shadow: 0 0 0px var(--sunset-clay);
+    }
+
+    2% {
+        transform: translateX(-1.5px);
+        box-shadow: 0 0 8px var(--sunset-clay);
+    }
+
+    4% {
+        transform: translateX(1.5px);
+    }
+
+    6% {
+        transform: translateX(-1px);
+        box-shadow: 0 0 12px var(--sunset-blush);
+    }
+
+    8% {
+        transform: translateX(1px);
+    }
+
+    10% {
+        transform: translateX(0);
+        box-shadow: 0 0 0px transparent;
+    }
 }
 
 @media (max-width:1440px) {

@@ -1,8 +1,10 @@
 .ServicesCard,
 .JoinCard {
+    cursor: pointer;
     width: 49.4382%;
     border-radius: 14px;
     background-color: var(--priamry-dark);
+    will-change: transform;
 
 
 }

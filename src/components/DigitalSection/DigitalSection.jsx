@@ -7,7 +7,7 @@ export default function DigitalSection({ TitleDigital, DescriptionFDigital, Btn,
                 <h2>{TitleDigital}</h2>
                 <p>{DescriptionFDigital}</p>
             </div>
-            <button className='BtnDigitalSection Flex-Row'>{Btn}<img src={ArrowImg} /></button>
+            <button className='BtnDigitalSection Flex-Row'>{Btn}<img src={ArrowImg} alt='ArrowImg'/></button>
         </div>
     )
 }

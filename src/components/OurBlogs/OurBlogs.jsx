@@ -42,8 +42,8 @@ export default function OurBlogs() {
                     </FulterBtnSuccess>
                 ))}
             </div>
-            <div className="Card-Container HeroBlog">
-                <img src="/images/Hero/HeroBlog/HeroBlogImg.png" className="HeroBlogLeft" />
+            <div className="Card-Container HeroBlog" data-aos="zoom-in-up">
+                <img src="/images/Hero/HeroBlog/HeroBlogImg.webp" className="HeroBlogLeft" alt="HeroBlogLeft"/>
                 <HeroCardBlog />
             </div>
             <div className="Card-Container">

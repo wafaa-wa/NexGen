@@ -42,7 +42,7 @@ export const BlogOpenData = [
                 ],
             },
         ],
-        ProfileImage: "/images/Blog OPen Page/Profile1.png",
+        ProfileImage: "/images/Blog OPen Page/Profile1.webp",
         Name: "Wade Warren",
         Job: "Art Director",
         Bio: "Crafting visual narratives that captivate and inspire, weaving creativity into every chapter of the design journey.",
@@ -94,7 +94,7 @@ export const BlogOpenData = [
                 ],
             },
         ],
-        ProfileImage: "/images/Blog OPen Page/Profile2.png",
+        ProfileImage: "/images/Blog OPen Page/Profile2.webp",
         Name: "Eleanor Smith",
         Job: "Business Strategist",
         Bio: "Helping businesses navigate innovation and achieve sustainable growth through strategic insights.",
@@ -146,7 +146,7 @@ export const BlogOpenData = [
                 ],
             },
         ],
-        ProfileImage: "/images/Blog OPen Page/Profile3.png",
+        ProfileImage: "/images/Blog OPen Page/Profile3.webp",
         Name: "David Carter",
         Job: "Software Engineer",
         Bio: "Bridging innovation with technical excellence to build scalable and high-performance software solutions.",
@@ -166,4 +166,7 @@ export const BlogOpenData = [
             },
         ]
     }
+    
+
+
 ]

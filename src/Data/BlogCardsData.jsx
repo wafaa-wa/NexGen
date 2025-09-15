@@ -2,9 +2,9 @@ export const BlogCardsData = [
     {
         id: 1,
         BlogImg: {
-            "Business": "/images/Blog Bage/img2.png",
-            "Design": "/images/Blog Bage/img1.png",
-            "Development": "/images/Blog Bage/img3.png"
+            "Business": "/images/Blog Bage/img2 (1).webp",
+            "Design": "/images/Blog Bage/img1 (1).webp",
+            "Development": "/images/Blog Bage/img3 (1).webp"
         },
         BlogTitle: {
             "Business": "Achieving Sustainable Growth Through Business Innovation",
@@ -22,9 +22,9 @@ export const BlogCardsData = [
     {
         id: 2,
         BlogImg: {
-            "Business": "/images/Blog Bage/img1.png",
-            "Design": "/images/Blog Bage/img2.png",
-            "Development": "/images/Blog Bage/img3.png"
+            "Business": "/images/Blog Bage/img1 (1).webp",
+            "Design": "/images/Blog Bage/img2 (1).webp",
+            "Development": "/images/Blog Bage/img3 (1).webp"
         },
         BlogTitle: {
             "Business": "Strategic Leadership: Driving Business Success in a Competitive Market",
@@ -42,9 +42,9 @@ export const BlogCardsData = [
     {
         id: 3,
         BlogImg: {
-            "Business": "/images/Blog Bage/img2.png",
-            "Design": "/images/Blog Bage/img3.png",
-            "Development": "/images/Blog Bage/img1.png"
+            "Business": "/images/Blog Bage/img2 (1).webp",
+            "Design": "/images/Blog Bage/img3 (1).webp",
+            "Development": "/images/Blog Bage/img1 (1).webp"
         },
         BlogTitle: {
             "Business": "Market Trends and Business Adaptation Strategies",

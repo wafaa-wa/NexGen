@@ -1,27 +1,68 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import './ContactForm.css'
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
+import axios from 'axios';
 
 export default function ContactForm() {
     const [phone, setPhone] = useState("");
     const [selectedCountry, setSelectedCountry] = useState("in");
+    const first_name = useRef(null);
+    const last_name = useRef(null);
+    const email = useRef(null);
+    const message = useRef(null);
+    const [responseMessage, setResponseMessage] = useState("");
+    const [showToast, setShowToast] = useState(false);
+    useEffect(() => {
+        if (showToast) {
+            const timer = setTimeout(() => setShowToast(false), 4000);
+            return () => clearTimeout(timer);
+        }
+    }, [showToast]);
+
+    const sendData = (event) => {
+        event.preventDefault();
+        axios.post("https://api2-test.leoron.eu/api/contact-us", {
+            first_name: first_name.current?.value,
+            last_name: last_name.current?.value,
+            email: email.current?.value,
+            phone_number: phone,
+            message: message.current?.value,
+
+        },
+
+            {
+                headers: {
+                    Accept: "application/json",
+                }
+            })
+            .then(res => {
+                setResponseMessage(res?.data?.message);
+                console.log(res.data);
+                setShowToast(true);
+            })
+            .catch(err => console.log(err))
+
+    }
+
+
+
     return (
-        <div className='ContactForm Flex-Column'>
+        <form className='ContactForm Flex-Column' onSubmit={sendData}>
             <div className='RowInput Flex-Row'>
                 < div className='InputContainer Flex-Column'>
                     <label >First Name</label>
-                    <input type="text" placeholder='Enter First Name' />
+                    <input type="text" placeholder='Enter First Name' ref={first_name} required />
                 </div>
                 <div className='InputContainer Flex-Column'>
                     <label >Last Name</label>
-                    <input type="text" placeholder='Enter Last Name' />
+                    <input type="text" placeholder='Enter Last Name' ref={last_name} required />
                 </div>
             </div>
             <div className='RowInput Flex-Row'>
                 <div className='InputContainer Flex-Column'>
                     <label >Email</label>
-                    <input type="email" placeholder='Enter your Email' />
+                    <input type="email" placeholder='Enter your Email' ref={email} required />
                 </div>
                 <div className='InputContainer  Flex-Column'>
                     <label >Phone Number</label>
@@ -39,6 +80,7 @@ export default function ContactForm() {
                         <PhoneInput
                             defaultCountry=""
                             value={phone || ""}
+                            required
                             onChange={(phone, country) => {
                                 setPhone(phone);
                                 if (country?.countryCode) {
@@ -51,6 +93,7 @@ export default function ContactForm() {
                             inputProps={{
                                 placeholder: "Enter your number"
                             }}
+
                         />
                     </div>
 
@@ -59,15 +102,19 @@ export default function ContactForm() {
             </div>
             <div className='InputContainer Flex-Column'>
                 <label >Message</label>
-                <textarea placeholder='Enter your Message'></textarea>
+                <textarea placeholder='Enter your Message' ref={message} required></textarea>
             </div>
             <div className='ContactFormBottom Flex-Row'>
                 <div className='AgreeCheckBox Flex-Row'>
-                    <input type='checkbox'></input>
+                    <input type='checkbox' required></input>
                     <p>I agree with Terms of Use and Privacy Policy</p>
                 </div>
-                <button className='BtnDigitalSection Flex-Row'>Send Your Message<img src="/images/Common/Arrow icon Image.svg" /></button>
+                <button className='BtnDigitalSection Flex-Row' type='submit'>Send Your Message<img src="/images/Common/Arrow icon Image.svg" /></button>
             </div>
-        </div>
+            {showToast && (
+                <div className="ToastNotification">{responseMessage}</div>
+            )}
+        </form>
+
     )
 }

@@ -1,6 +1,8 @@
 .SuccessCardRight {
     width: 52.3626%;
     gap: 20px;
+    border-radius: 14px;
+    
 }
 
 .AllFulterBtn {
@@ -12,6 +14,7 @@
     border-radius: 14px;
     padding: 40px;
     background-color: var(--priamry-dark);
+    will-change: transform;
 
 }
 

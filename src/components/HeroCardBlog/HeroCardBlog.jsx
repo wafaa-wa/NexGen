@@ -2,10 +2,22 @@ import { HeroCardBlogData } from '../../Data/HeroCardBlogData'
 import Arrow from '../Arrow/Arrow'
 import RowWithCircle from '../RowWithCircle/RowWithCircle'
 import './HeroCardBlog.css'
+import { motion } from 'framer-motion';
 
 export default function HeroCardBlog() {
     return (
-        <div className='HeroCardBlog Flex-Column'>
+        <motion.div className='HeroCardBlog Flex-Column'
+            whileHover={{
+                scale: 1.05,
+                y: -6,
+                zIndex: 2,
+                boxShadow: '0 0 14px #E7BEB1',
+            }}
+            transition={{
+                duration: 0.05,
+                ease: 'easeInOut',
+            }}
+            style={{ position: 'relative' }}>
             <div className='HeroCardBlog1 Flex-Column'>
                 <h3>Web Design Trends Shaping 2024</h3>
                 <div className='HeroCardBlog1-1 Flex-Row'>
@@ -30,6 +42,6 @@ export default function HeroCardBlog() {
                     <h4>7th February 2023</h4>
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }

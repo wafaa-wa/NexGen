@@ -14,13 +14,13 @@
 }
 
 .HeroServicesRirghtSide {
-    background-image: url('/images/Hero/HeroServices/HeroServicesImg.png');
+    background-image: url('/images/Hero/HeroServices/HeroServicesImg.webp');
     width: 32.5824%;
 
 }
 
 .HeroProjectRirghtSide {
-    background-image: url('/images/Hero/HeroProject/HeroProjectImg.png');
+    background-image: url('/images/Hero/HeroProject/HeroProjectImg.webp');
     width: 35.0887%;
     min-height: 537px;
 }

@@ -1,4 +1,5 @@
 .FAQItemOpen {
+    cursor: pointer;
     width: 100%;
     border-radius: 16px;
     background-color: var(--priamry-dark);
@@ -91,6 +92,7 @@
     }
 
 }
+
 @media (max-width:410px) {
     .FAQItemOpen {
         width: 100%;

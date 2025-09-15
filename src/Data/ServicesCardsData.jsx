@@ -1,5 +1,6 @@
 export const ServicesCardsData = [
     {
+        id:1,
         isHome: true,
         IconImag: "/images/Home/Services/Ruler Cross Pen.svg",
         IconText: "Web Design",
@@ -9,6 +10,7 @@ export const ServicesCardsData = [
         CardTextOnMobile: "Book A Call",
     },
     {
+        id:2,
         isHome: true,
         IconImag: "/images/Home/Services/Smartphone 2.svg",
         IconText: "Mobile App Development",
@@ -18,6 +20,7 @@ export const ServicesCardsData = [
         CardTextOnMobile: "Book A Call",
     },
     {
+        id:3,
         isHome: true,
         IconImag: "/images/Home/Services/Code Circle.svg",
         IconText: "Web Development",
@@ -27,6 +30,7 @@ export const ServicesCardsData = [
         CardTextOnMobile: "Book A Call",
     },
     {
+        id:4,
         isHome: true,
         IconImag: "/images/Home/Services/Widget 6.svg",
         IconText: "Digital Marketing",

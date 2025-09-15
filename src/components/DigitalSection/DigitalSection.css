@@ -25,6 +25,7 @@
 }
 
 .BtnDigitalSection {
+    cursor: pointer;
     background-color: var(--pure-black);
     padding: 18px 34px;
     gap: 10px;
@@ -36,8 +37,28 @@
     font-size: 18px;
     line-height: 150%;
     color: var(--dusty-rose);
+    animation: pulseGlow 2.5s ease-in-out infinite;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 
+}
+
+.BtnDigitalSection:hover {
+    transform: scale(1.05);
+}
+
+@keyframes pulseGlow {
+    0% {
+        box-shadow: 0 0 0px var(--peach-blush);
+    }
+
+    50% {
+        box-shadow: 0 0 18px var(--peach-blush);
+    }
+
+    100% {
+        box-shadow: 0 0 0px var(--peach-blush);
+    }
 }
 
 .BtnDigitalSection img {

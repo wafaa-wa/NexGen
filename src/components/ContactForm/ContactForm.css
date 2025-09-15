@@ -36,7 +36,9 @@
     padding: 20px !important;
     border: 1px solid var(--medium-gray) !important;
     background-color: var(--shadow-black) !important;
+    color: var(--dusty-rose) !important;
     box-shadow: 0px 0px 0px 4px var(--shadow-input) !important;
+
 
 }
 
@@ -57,8 +59,35 @@
     font-size: 18px !important;
     line-height: 150% !important;
     color: var(--medium-gray) !important;
+    transition: color 0.3s ease !important;
 
 }
+
+input:focus,
+textarea:focus,
+.phone-input-field:focus {
+    outline: none !important;
+    border-color: #EB8477 !important;
+    box-shadow: 0 0 8px rgba(255, 175, 164, 0.3) !important;
+    transform: scale(1.02) !important;
+    transition: all 0.3s ease !important;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder,
+.phone-input-field:focus::placeholder {
+    color: transparent !important;
+}
+
+input:hover,
+textarea:hover,
+.phone-input-field:hover {
+    transform: translateY(-2px) !important;
+    border-color: #EB8477 !important;
+    transition: all 0.3s ease !important;
+}
+
+
 
 .PhoneWrapper {
     width: 100%;
@@ -114,6 +143,42 @@
     color: var(--pure-black);
     border: none;
 
+}
+
+.ToastNotification {
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    background-color: var(--sunset-clay);
+    color: var(--white);
+    padding: 40px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    z-index: 9999;
+    box-shadow: 0 6px 20px var(--Shadow-black1);
+    animation: slideInRight 0.6s ease-out;
+    max-width: 400px;
+}
+
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateX(-10px);
+    }
+
+    80% {
+        transform: translateX(5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
 
 @media (max-width:1440px) {
@@ -195,16 +260,10 @@
 
 }
 
-@media (max-width:1430px) {
-    .ContactForm {
-        width: 100%;
-    }
-
-}
-
 @media (max-width:992px) {
     .ContactForm {
         gap: 30px;
+        width: 100%;
         border-radius: 10px;
         padding: 30px;
 

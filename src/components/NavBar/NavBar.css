@@ -14,6 +14,11 @@
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
+    transition: top 0.3s ease;
+}
+
+.NavBar.scrolled {
+    top: 0;
 }
 
 .Logo {
@@ -36,7 +41,15 @@
     border-radius: 12px;
     background-color: var(--pure-black);
     cursor: pointer;
+    transform: perspective(600px) translateZ(0);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    will-change: transform, box-shadow;
 
+}
+
+.MenuLinks li:hover {
+    transform: perspective(600px) translateY(-4px) translateZ(10px) rotateX(3deg);
+    box-shadow: 0 8px 16px var(--peach-blush);
 }
 
 .MenuLinks li a {
@@ -120,6 +133,7 @@
 
     .MenuLinks {
         display: none;
+
     }
 
     .MenuLinks.open {
@@ -136,7 +150,8 @@
     .MenuLinks li {
         width: 100%;
         height: fit-content !important;
-        border: 2px solid var(--peach-blush);
+        border: none;
+        border-radius: 0;
         padding: 18px 24px;
         background-color: var(--pure-black);
 

@@ -1,10 +1,10 @@
 .FooterCard,
 .KeyFeaturesCard {
-
     gap: 80px;
     border-radius: 14px;
     padding: 40px;
     background-color: var(--priamry-dark);
+    will-change: transform;
 
 }
 
@@ -26,6 +26,7 @@
 .FooterCard-Botttom {
     gap: 12px;
 }
+
 .KeyFeaturesCard .FooterCard-Botttom {
     flex-grow: 1;
 }

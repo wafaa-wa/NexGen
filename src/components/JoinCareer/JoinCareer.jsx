@@ -50,7 +50,7 @@ export default function JoinCareer() {
           </div>
         )}
       </div>
-      <EndSection BottomArrow="public/images/Common/Bottom Arrow.svg" TextEndSection="View All" onToggle={toggleShowAll} />
+      <EndSection BottomArrow="/images/Common/Bottom Arrow.svg" TextEndSection="View All" onToggle={toggleShowAll} />
 
     </div>
   )

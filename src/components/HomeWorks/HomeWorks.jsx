@@ -22,6 +22,7 @@ export default function HomeWorks() {
 
     const toggleShowAll = () => setShowAll(!showAll);
 
+
     return (
         < div className="HomeWorks M-Top Style-Section2" >
             <StartSection SectionTitle="Our Works" T={true} ArrowIcon="/images/Common/Arrow Icon.svg" ArrowText="ALL Works" />

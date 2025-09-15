@@ -4,6 +4,7 @@
     border-radius: 14px;
     padding: 40px;
     background-color: var(--priamry-dark);
+    will-change: transform;
 
 }
 

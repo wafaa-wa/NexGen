@@ -4,6 +4,7 @@
     padding: 20px;
     background-color: var(--pure-black);
 
+
 }
 
 .InfinityRowScrollFooter {
@@ -17,6 +18,7 @@
 .InfinityRowScrollContent {
     gap: 20px;
     align-items: center;
+    cursor: pointer !important;
 }
 
 .InfinityRowScrollContent span {

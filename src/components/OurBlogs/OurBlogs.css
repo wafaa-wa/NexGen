@@ -6,6 +6,11 @@
     width: 32.191%;
 }
 
+.HeroBlogLeft:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
 @media (max-width:1440px) {
     .OurBlogs {
         margin-top: 169px;

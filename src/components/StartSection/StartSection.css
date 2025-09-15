@@ -25,6 +25,10 @@
     display: none !important;
 }
 
+.Typewriter__cursor {
+    display: none !important;
+}
+
 
 @media (max-width:1440px) {
     .StartSection {

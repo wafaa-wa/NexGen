@@ -3,9 +3,9 @@ import WorksLeftCard from '../WorksLeftCard/WorksLeftCard'
 import './RowCardsSuccess.css'
 
 export default function RowCardsSuccess({ data }) {
-    
+
     return (
-        <div className='RowCardsSuccess Flex-Row'>
+        <div className='RowCardsSuccess Flex-Row' data-aos="zoom-in-up">
             <WorksLeftCard
                 isSuccess={true}
                 T={true}

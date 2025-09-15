@@ -1,6 +1,9 @@
 .WorksRightCard {
+    cursor: pointer;
     max-width: 579.33px;
     gap: 20px;
+    border-radius: 14px;
+    will-change: transform;
 }
 
 .WorksRightCardTop {

@@ -1,19 +1,23 @@
 .WorksLeftCard {
+    cursor: pointer;
     max-width: 579.33px;
     border-radius: 14px;
     padding: 60px 40px;
     background-color: var(--priamry-dark);
     gap: 40px;
+    will-change: transform;
 
 }
 
 .SuccessLeftCard {
+    cursor: pointer;
     width: 41.0439%;
     gap: 50px;
     border-radius: 14px;
     padding: 60px;
     background-color: var(--priamry-dark);
     flex-grow: 1;
+    will-change: transform;
 
 }
 
